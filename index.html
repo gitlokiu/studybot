@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StudyBot 📘</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>StudyBot 📘</h1>
+    <p>Aprenda de forma divertida e interativa!</p>
+  </header>
+
+  <main>
+    <section class="conteudo">
+      <h2>Mitose e Meiose: As Duas Formas de Divisão Celular</h2>
+      <p><strong>Mitose:</strong> processo de divisão celular que gera duas células filhas idênticas à célula mãe. Ocorre nas células somáticas.</p>
+      <p><strong>Meiose:</strong> processo que gera quatro células filhas com metade dos cromossomos e variabilidade genética. Ocorre nas células germinativas.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Característica</th>
+            <th>Mitose</th>
+            <th>Meiose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Objetivo</td><td>Produzir células idênticas</td><td>Produzir gametas com variabilidade genética</td></tr>
+          <tr><td>Tipo de célula</td><td>Somática</td><td>Germinativa</td></tr>
+          <tr><td>Número de divisões</td><td>1</td><td>2</td></tr>
+          <tr><td>Crossing-over</td><td>Não ocorre</td><td>Ocorre</td></tr>
+          <tr><td>Células filhas</td><td>2</td><td>4</td></tr>
+          <tr><td>Número de cromossomos</td><td>Diploide</td><td>Haploide</td></tr>
+          <tr><td>Variabilidade genética</td><td>Nenhuma</td><td>Alta</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="perguntas">
+      <h2>Pergunte ao StudyBot 🤖</h2>
+      <input type="text" id="pergunta" placeholder="Digite sua pergunta aqui..." />
+      <button onclick="responderPergunta()">Enviar</button>
+      <p id="resposta"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido com 💙 por StudyBot</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
